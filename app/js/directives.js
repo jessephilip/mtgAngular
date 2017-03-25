@@ -1,0 +1,1 @@
+// directives for angular app
