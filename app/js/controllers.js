@@ -1,5 +1,13 @@
 // controllers for angular app
-angular.module("myApp", []).controller("myApp.controllers", function($scope) {
-	$scope.scopeName = "myApp scope";
-	$scope.exercise = "exercise";
+angular.module('MyApp', []).controller('MyAppController', function($scope) {
+	let vm = $scope;
+	vm.scopeName = 'myApp scope';
+	vm.exercise = 'exercise';
+	vm.app = {
+		'jesse': {
+			name: 'Jesse',
+			age: 35,
+			state: 'Texas'
+		}
+	};
 });

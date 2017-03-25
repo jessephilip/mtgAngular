@@ -1,0 +1,33 @@
+{
+    "name": "mtgangular",
+    "version": "1.0.0",
+    "description": "MTG App written in AngularJS",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "prestart": "npm run sass",
+        "sass": "sass app/scss/app.scss app/css/app.css",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jessephilip/mtgAngular.git"
+    },
+    "author": "jessephilip",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jessephilip/mtgAngular/issues"
+    },
+    "homepage": "https://github.com/jessephilip/mtgAngular#readme",
+    "devDependencies": {
+        "eslint": "^3.18.0",
+        "eslint-config-angular": "^0.5.0",
+        "eslint-plugin-angular": "^2.2.0"
+    },
+    "dependencies": {
+        "express": "^4.15.2",
+        "nodemon": "^1.11.0"
+    }
+}
